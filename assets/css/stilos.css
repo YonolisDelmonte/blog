@@ -21,6 +21,17 @@ ul {
     padding: 0;
 }
 
+ol li,
+ol li {
+    display: inline-block;
+}
+article.contacto address ul li {
+    display: block;
+}
+article.contacto address ul li a {
+    text-decoration: none;
+}
+
 /* Parallax images */
 .bgimg-1,
 .bgimg-2,
