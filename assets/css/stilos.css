@@ -3,6 +3,9 @@
     --color-secundario: #802d15;
     --color-terciario: #83468b;
     --color-texto: #83468b;
+
+    --font-family-titles: "Jim Nightshade", cursive;
+    --font-family-textos: "Story Script", sans-serif;
 }
 
 body,
@@ -13,6 +16,7 @@ h4,
 h5,
 h6 {
     font-family: "Lato", sans-serif;
+    font-family: var(--font-family-titles);
 }
 
 body,
