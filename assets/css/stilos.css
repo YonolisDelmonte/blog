@@ -72,27 +72,32 @@ a {
     text-decoration: none;
 }
 
-/* Parallax images */
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
-    background-attachment: fixed;
+.wu-bgimg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bgimg-1 {
+/* Parallax images */
+.wu-fixed {
+    background-attachment: fixed;
+}
+
+.wu-portada {
+    background-image: url(../img/foto_perfil.webp);
+    min-height: 100vh;
+}
+.wu-paralax-1 {
     background-image: url("../img/portada_1.webp");
     min-height: 100%;
 }
 
-.bgimg-2 {
+.wu-paralax-2 {
     background-image: url("../img/portada_2.webp");
     min-height: 400px;
 }
 
-.bgimg-3 {
+.wu-paralax-3 {
     background-image: url("../img/portada_3.webp");
     min-height: 400px;
 }
