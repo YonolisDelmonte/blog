@@ -6,6 +6,9 @@
 
     --font-family-titles: "Jim Nightshade", cursive;
     --font-family-textos: "Story Script", sans-serif;
+
+    --bg-url-portada-1: url(https://yonolisdelmonte.github.io/blog/assets/img/portada_1.webp);
+    --bg-tarea-1: url("https://www.w3schools.com/w3images/p1.jpg");
 }
 
 body,
@@ -85,7 +88,7 @@ a {
 }
 
 .wu-portada {
-    background-image: url(../img/foto_perfil.webp);
+    background-image: var(--bg-url-portada-1);
     min-height: 100vh;
 }
 .wu-paralax-1 {
@@ -101,6 +104,9 @@ a {
 .wu-paralax-3 {
     background-image: url("../img/portada_3.webp");
     min-height: 400px;
+}
+
+.wu-tarea {
 }
 
 .w3-wide {
